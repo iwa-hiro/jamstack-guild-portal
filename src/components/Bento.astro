@@ -13,9 +13,11 @@ const { bgColor = '#E5E7EB', className } = Astro.props;
 
 <style define:vars={{ bgColor }}>
   div {
+    width: 100%;
     background-color: var(--bgColor);
     padding: 2rem;
     border-radius: 1.5rem;
     min-width: 100%;
+    box-sizing: border-box;
   }
 </style>

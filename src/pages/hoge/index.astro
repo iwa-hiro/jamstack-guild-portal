@@ -1,0 +1,32 @@
+---
+
+import Bento from '../../components/Bento.astro';
+import Column from '../../layouts/Column.astro';
+import '../../styles/reset.css';
+import '../../styles/common.css';
+import '../../styles/column.scss';
+
+---
+
+<html lang="ja">
+<head>
+  <title>External JS Example</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>テキストテキスト</h1>
+  <p class="">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+  <Column>
+  </Column>
+  <Bento bgColor="#279E54">
+    <div class="text-small font-comico text-white">Hello Members!</div>
+    <h2 class="text-large text-white">About Jamstack Study Group</h2>
+    <p class="text-white">
+      fuga近年注目されているJamstackと、広く普及し始めているヘッドレスCMSに取り組むエンジニアを増やすことが必要だと感じ、本ギルドが開設されました。
+      <br />
+      Jamstackな人材の育成や技術研究、社内外への普及活動に取り組んでいます。
+    </p>
+  </Bento>
+</body>
+</html>
+
